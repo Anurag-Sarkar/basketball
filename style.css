@@ -1,0 +1,283 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Teko', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #D4D9E3;
+}
+
+#nav h5{
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size:20px;
+    color: rgb(117, 117, 117);
+}
+
+#nav{
+    padding: 0px 50px;
+    width: 100%;
+    height:60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+}
+#mid{
+    z-index: 9;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+#bucks h1{
+    background: -webkit-linear-gradient(rgb(255, 255, 255) 0% ,transparent 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 250px;
+    text-align: center;
+}
+
+#thirty{
+    
+    font-size: 100px;
+    color: rgba(255, 255, 255, 0.514);
+    position: absolute;
+    left: 10%;
+    top: 15%;
+}
+
+#gia{
+    position: absolute;
+    left: 10%;
+    top: 37%;
+}
+
+.gia{
+
+    font-size: 90px;
+    line-height: 40px;
+    letter-spacing: 5px;
+}
+
+.gia span{
+    letter-spacing: 0px;
+    font-size: 55px;
+}
+
+#top,#bottom{
+    display: flex;
+    padding: 15px;
+}
+
+#left1{
+    padding-right: 125px;
+}
+
+#left2{
+    padding-right: 80px;
+}
+
+#right-box{
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+
+.position,.debut,.yrs,.from{
+    color: #426668;
+    font-size: 25px;
+    letter-spacing: 3px;
+    line-height: 15px;
+    
+}
+
+.position1,.debut1,.yrs1,.from1{
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-left: 35px;
+}
+i{
+    padding-right: 5px;
+}
+
+#score{
+    z-index: 7;
+    width: 400px;
+    height: 150px;
+    position: absolute;
+    right: 10%;
+    bottom: 30%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.league{
+    padding-top: 20px;
+    letter-spacing: 2px;
+    color: rgb(179, 179, 179);
+    text-align: center;
+}
+
+#scr{
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    display: flex;
+}
+#s{
+    display: flex;
+}
+
+.s1{
+    font-size: 55px;
+    padding-right: 10px;
+}
+.s2{
+    font-size: 55px;
+    padding-left: 10px;
+}
+.s3 {
+    letter-spacing: 2px;
+    padding-top: 25px;
+}
+
+#game{
+    width: 100%;
+    position: absolute;
+    justify-content: space-between;
+    display: flex;
+    bottom:5%;
+    padding: 0px 450px;
+}
+#fst{
+    z-index: 10;
+    text-shadow: 2px 2px 6px black;
+    background-color: #426668;
+    width: 18em;
+    height: 12em;
+    border-radius: 15px;
+}
+#snd{
+    z-index: 10;
+    z-index: 3;
+    border-radius: 15px;
+    background-color: #eceef0c7;
+    text-shadow: 2px 2px 6px rgb(151, 151, 151);
+    width: 18em;
+}
+#thd{
+    z-index: 10;
+    border-radius: 15px;
+    width: 18em;
+    text-shadow: 2px 2px 6px black;
+    background-color: #426668;
+}
+#fst h3{
+    border-bottom: 2px solid #2b46474b; 
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: white;
+    text-align:center ;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+#snd h3{
+    border-bottom: 2px solid #9b9b9b4d; 
+    padding-bottom: 15px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #426668;
+    padding-top: 15px;
+    text-align:center ;
+}
+#thd h3{
+    border-bottom: 2px solid #2b46474b; 
+    padding-bottom: 15px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: white;
+    padding-top: 15px;
+    text-align:center ;
+}
+#fst h2{
+    font-size: 70px;
+    color: white;
+    padding-top: 10px;
+    text-align:center ;
+}
+#snd h2{
+    font-size: 70px;
+    color: #426668;
+    padding-top: 10px;
+    text-align:center ;
+}
+#thd h2{
+    font-size: 70px;
+    color: white;
+    padding-top: 10px;
+    text-align:center ;
+}
+#fst h2 sup{
+    font-size: 30px;
+    color: white;
+    
+}
+#snd h2 sup{
+    font-size: 30px;
+    color: #426668;
+   
+}
+#thd h2 sup{
+    font-size: 30px;
+    color: white;
+    
+}
+#player{
+    transform: translate(-50%,-50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+#player img{
+    height:55em;
+}
+.nug{
+    padding-left: 10px;
+}
+
+#roll{
+    padding-top: 50px;
+    display: flex;
+}
+#img-two{
+    padding-left: 20px;
+}
+
+#mid h5:hover{
+    cursor: pointer;
+    color: #000000;
+}
+#fst:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-duration:1s ;
+}
+#snd:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-duration:1s ;
+}
+#thd:hover{
+    transition-duration:1s ;
+    cursor: pointer;
+    transform: scale(1.1);
+}
